@@ -1,0 +1,108 @@
+body{
+    font: arial, sans-serif
+}
+
+label{
+    font-family: Arial,  sans-serif;
+    font-size: 13px;
+    color: #222222;
+}
+
+#links{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#findPages{
+    font-size: 16px;
+    color: #333333;
+}
+
+#tip{
+    font-family: Arial, sans-serif;
+    font-style: bold;
+    font-size: 13px;
+    color: #cecece;
+}
+
+#line{
+    border-bottom: 1px solid;
+    border-color: #cecece;
+    margin: 20px 0;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-style: bold;
+    color: #D93025;
+    margin: 50px 0 0 10px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 182px auto 370px;
+    grid-gap: 20px 10px;
+    margin: 10px 0;
+    align-items: center;
+    max-width: 1330px;
+    margin-left: 30px;
+}
+
+.advancedSearchInput{
+    border: 1px solid #d9d9d9;
+    border-radius: 1px;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+}
+
+.advancedSearchInput:focus{
+    box-shadow: 0 0 0 0;
+    border: 1px solid #4D90FE;
+    outline: 0;
+}
+
+.searchLabel{
+    color: #555555;
+    font-size: 11px;
+}
+.exemple{
+    color: #666666;
+    font-family: monospace;
+}
+
+.advancedSearchButton{
+    background-color: #4D90FE;
+    color: white;
+    border: 2px solid #4787ed;
+    border-radius: 2px;
+    font-size: 11px;
+    font-weight: 700;
+    height: 100%;
+    width: 120px;
+    height: 36px;
+    grid-column: 2 / span 1;
+    justify-self: end;
+}
+
+.linksUpperRight{
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    padding-right: 20px;
+}
+.linksUpperRight:link{
+    text-decoration: none;
+    color: black;
+}
+.linksUpperRight:visited{
+    text-decoration: none;
+    color: black;
+}
+.linksUpperRight:hover {
+    text-decoration: underline;
+  }
+
+p{
+    font-family: Arial, sans-serif;
+}
